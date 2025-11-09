@@ -1,16 +1,16 @@
 import { cn } from "@/lib/utils";
-import { Card, CardContent } from "./card";
+import Image from "next/image";
+import Link from "next/link";
+import { Card, CardContent } from "./ui/card";
 import {
   Field,
   FieldDescription,
   FieldGroup,
   FieldLabel,
   FieldSeparator,
-} from "./field";
-import { Input } from "./input";
-import { Button } from "./button";
-import Image from "next/image";
-import Link from "next/link";
+} from "./ui/field";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
 
 const LoginForm = () => {
   return (
